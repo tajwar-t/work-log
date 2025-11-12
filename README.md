@@ -147,7 +147,7 @@ Route                               Method      Purpose
 7. Copy the generated template using the Copy button
 ```
 
-🧑‍💻 Author
+## 🧑‍💻 Author
 
 ```text
 Tajwar

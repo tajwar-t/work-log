@@ -45,53 +45,6 @@ Allows users to **generate daily work logs**, **save them**, **fetch previous da
 
 ## ⚙️ Setup Instructions
 
-# 🧾 Laravel Work Log Generator
-
-An interactive **Work Log Generator** built with **Laravel 12**, **Tailwind CSS**, and **JavaScript**.  
-Allows users to **generate daily work logs**, **save them**, **fetch previous day work**, and **copy styled templates** seamlessly via AJAX.
-
-![Work Log Generator Screenshot](./screenshot.png)
-
----
-
-## 🚀 Features
-
--   📅 **Day Start / Day End Templates**  
-    Switch between daily work log modes.
-
--   🧠 **Smart Suggestions**  
-    Prefill input fields with recent works from the previous day.
-
--   ➕ **Dynamic Item Fields**  
-    Add or remove work items without losing existing inputs.
-
--   💾 **AJAX Saving**  
-    Save work logs without page reload.
-
--   ✨ **Styled HTML Output**  
-    Copy formatted HTML template with styles.
-
--   🔔 **Toast Notifications**  
-    Subtle success messages for copy and save actions.
-
--   📱 **Responsive Layout**  
-    Form on the left, generated template preview on the right.
-
----
-
-## 🖥️ Tech Stack
-
--   **Backend:** Laravel 12, PHP 8.3+
--   **Frontend:** Blade Templates, Tailwind CSS, JavaScript
--   **Dependencies:**
-    -   [TailwindCSS](https://tailwindcss.com/)
-    -   [SweetAlert2](https://sweetalert2.github.io/) for notifications
-    -   [Font Awesome](https://fontawesome.com/) for icons
-
----
-
-## ⚙️ Setup Instructions
-
 1. **Clone the repository:**
 
     ````bash

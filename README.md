@@ -58,9 +58,12 @@ Allows users to **generate daily work logs**, **save them**, **fetch previous da
     ````
 
 2. **Install dependencies:**
+
+```bash
    composer install
    npm install
    npm run dev
+```
 
 3. **Configure environment:**
    cp .env.example .env

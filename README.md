@@ -66,14 +66,22 @@ Allows users to **generate daily work logs**, **save them**, **fetch previous da
     ```
 
 3. **Configure environment:**
-   cp .env.example .env
-   php artisan key:generate
+
+    ```bash
+    cp .env.example .env
+    php artisan key:generate
+    ```
 
 4. **Run migrations:**
-   php artisan migrate
+
+    ```bash
+    php artisan migrate
+    ```
 
 5. **Run the application:**
-   php artisan serve
+    ```bash
+    php artisan serve
+    ```
 
 ---
 
@@ -110,17 +118,20 @@ work-log-generator/
 
 ## 📝 Routes
 
-Route Method Purpose
-/work-log-generator GET Show generator page
-/work-log-generator-ajax POST Generate template via AJAX
-/work-log-fetch-previous POST Fetch previous day's work
-/work-log-save POST Save work log without generating
-/work-log-history GET Show history of saved templates
+```text
+Route                               Method      Purpose
+/work-log-generator                 GET         Show generator page
+/work-log-generator-ajax            POST        Generate template via AJAX
+/work-log-fetch-previous            POST        Fetch previous day's work
+/work-log-save                      POST        Save work log without generating
+/work-log-history                   GET         Show history of saved templates
+```
 
 ---
 
 ## 📋 Usage
 
+```text
 1. Select Template Type (Day Start / Day End)
 
 2. Pick a Date
@@ -134,6 +145,7 @@ Route Method Purpose
 6. Use Save Work Log to save without generating
 
 7. Copy the generated template using the Copy button
+```
 
 🧑‍💻 Author
 

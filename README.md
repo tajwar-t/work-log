@@ -76,9 +76,6 @@ Allows users to **generate daily work logs**, **save them**, **fetch previous da
 
 ## 🧩 File Structure
 
-<details>
-<summary>work-log-generator/</summary>
-
 ```text
 work-log-generator/
 ├─ app/
@@ -105,8 +102,6 @@ work-log-generator/
 ├─ vite.config.js
 └─ README.md
 ```
-
-</details>
 
 ---
 

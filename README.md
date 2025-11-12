@@ -78,30 +78,34 @@ Allows users to **generate daily work logs**, **save them**, **fetch previous da
 
 <details>
 <summary>work-log-generator/</summary>
+
+```text
 work-log-generator/
 ├─ app/
-│ └─ Http/
-│ └─ Controllers/
-│ └─ WorkLogTemplateController.php
+│  └─ Http/
+│     └─ Controllers/
+│        └─ WorkLogTemplateController.php
 ├─ database/
-│ └─ migrations/
-│ └─ 2025_11_12_create_work_log_templates_table.php
+│  └─ migrations/
+│     └─ 2025_11_12_create_work_log_templates_table.php
 ├─ public/
-│ └─ js/
-│ └─ work-log-generator.js
+│  └─ js/
+│     └─ work-log-generator.js
 ├─ resources/
-│ └─ views/
-│ └─ work_logs/
-│ ├─ generator.blade.php
-│ └─ history.blade.php
+│  └─ views/
+│     └─ work_logs/
+│        ├─ generator.blade.php
+│        └─ history.blade.php
 ├─ routes/
-│ └─ web.php
+│  └─ web.php
 ├─ .env.example
 ├─ composer.json
 ├─ package.json
 ├─ tailwind.config.js
 ├─ vite.config.js
 └─ README.md
+```
+
 </details>
 
 ---

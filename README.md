@@ -76,6 +76,8 @@ Allows users to **generate daily work logs**, **save them**, **fetch previous da
 
 ## 🧩 File Structure
 
+<details>
+<summary>work-log-generator/</summary>
 work-log-generator/
 ├─ app/
 │ └─ Http/
@@ -100,6 +102,7 @@ work-log-generator/
 ├─ tailwind.config.js
 ├─ vite.config.js
 └─ README.md
+</details>
 
 ---
 

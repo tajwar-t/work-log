@@ -149,6 +149,8 @@ Route                               Method      Purpose
 
 🧑‍💻 Author
 
+```text
 Tajwar
 💼 Developer | 💬 Open for collaboration
 📧 tajim.tajwar@gmail.com
+```
